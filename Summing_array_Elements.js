@@ -19,12 +19,19 @@ sumArrEl([2,4,5,6])=> return 17
 // }
 
 //using foreach
+// function sumArrEl(arr){
+//     let result = 0;
+//     arr.forEach((element) => {
+//         result+= element;
+//     });
+//     return result;
+// }
+
+//Solving using reduce 
 function sumArrEl(arr){
-    let result = 0;
-    arr.forEach((element) => {
-        result+= element;
-    });
-    return result;
+   return  arr.reduce((sum,curr) =>{
+    return sum + curr;
+   }, 0)
 }
 
 let arr = [2,4,5,6];

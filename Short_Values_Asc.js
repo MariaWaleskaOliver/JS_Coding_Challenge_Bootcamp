@@ -19,4 +19,4 @@ let sc = n1>n2&&n1>n3 ? n2>n3? n2:n3 : n2>n1&&n2>n3 ? n1>n3?n1:n3: n1>n2? n1:n2;
 n1= min;
 n2= sc;
 n3= max;
-console.log("n1 : ", n1, "n2=", n2 , "n3=" , n3)
+console.log("n1=", n1, "n2=", n2 , "n3=", n3)

@@ -12,5 +12,4 @@ let max = num1 > num2 && num1 > num3 ? num1 : num2 > num1 && num2 > num3 ? num2 
 console.log(" min :" , min , "max :", max)
 }
 
-
 find_min_max_tree_numbers(1,2,3);
